@@ -6,7 +6,7 @@ body {
 
 .container {
 	width: 960px;
-	margin: 0 auto;
+	margin: auto;
 }
 
 .header {
@@ -20,12 +20,10 @@ body {
 .logo {
 	background-color: #4aaaa5;
 	color: #ffffff;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding: 20px;
 	float: left;
-	font-family: 'Georgia', Times, 
-	Times New Roman, serif;
-	font-size: 20px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 50px;
 }
 
 
@@ -36,11 +34,12 @@ a {
 }
 
 
-li {
+.mynav {
+	font-size: 20px;
 	list-style: none;
 	float:left;
-	margin-left: 15px;
-	padding-top: 15px;
+	margin-left: 20px;
+	padding-top: 40px;
 }
 
 .nav {
@@ -78,7 +77,7 @@ h2 {
 	margin-left: 50px;
 }
 
-#bio-image {
+.bio-image {
 	float: left;
 	margin-right: 20px;
 	margin-bottom: 10px;
@@ -93,14 +92,17 @@ p {
 }
 
 footer {
-	position: absolute;
-	right: 0;
+	position: fixed;
 	bottom: 0;
-	left: 0;
-	clear: both;
 	background-color: #666666;
 	width: 100%;
+	height: 30px;
+	margin: 0 auto;
 	padding: 20px;
 	border-top: 10px solid #4aaaa5;
 	text-align: center;
+}
+
+.myul2 {
+	list-style: initial;
 }
