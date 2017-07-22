@@ -1,5 +1,5 @@
 body {
-	overflow: scroll;
+	overflow: visible;
 	width:100%;
 	margin: auto;
 	background-image: url("../images/concrete-texture.png");
@@ -121,7 +121,7 @@ p {
 }
 
 .footer1 {
-	position: absolute;
+	position: fixed;
 	bottom: 0;
 	background-color: #666666;
 	width: 100%;
