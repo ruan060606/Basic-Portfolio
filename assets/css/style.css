@@ -146,8 +146,9 @@ p {
 	width: 270px;
 	height: 200px;
 	display: inline-block;
-	margin-right: 12px;
-	margin-top: 18px;
+	margin-right: 23px;
+	margin-top: 17px;
+	margin-bottom: 11px;
 	position: relative;
 }
 
